@@ -26,7 +26,7 @@ const MySkills = () => {
             MY <span className="">SKILLS</span>
           </p>
           <LineGradient width="w-1/3" />
-            <p className="gap-2 my-10 flex justify-between">
+            <p className="gap-2 my-10 flex flex-wrap justify-between">
                 <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
                   <FaHtml5 className="m10x- text-6xl text-red-600" /> <p>HTML</p>
                 </a>
