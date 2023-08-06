@@ -4,7 +4,7 @@ import person from '../assets/person-1.png'
 
 const About = () => {
   return (
-    <section id="About" className="pt-28 pb-16">     
+    <section id="about" className="pt-28 pb-16">     
       <motion.div
         className="md:w-1/3 pb-10 text-center md:text-left"
         initial="hidden"

@@ -2,7 +2,8 @@ import LineGradient from "../components/LineGradient";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import {SiJavascript,SiTailwindcss} from 'react-icons/si'
-import {FaReact,FaHtml5,FaCss3} from 'react-icons/fa'
+import {FaReact,FaHtml5,FaCss3, FaNode} from 'react-icons/fa'
+import {TbBrandRedux} from 'react-icons/tb'
 import skill from '../assets/skills-image.png'
 
 const MySkills = () => {
@@ -25,13 +26,30 @@ const MySkills = () => {
             MY <span className="">SKILLS</span>
           </p>
           <LineGradient width="w-1/3" />
-          <p className=" gap-2 my-10 flex justify-between ">
-            <a href="https://react.dev/"><FaHtml5 className="m10x- text-6xl text-red-600"/> <p>HTML</p></a>
-            <a href="https://react.dev/"><FaCss3 className="text-6xl text-blue-600"/><p>CSS</p></a>
-            <a href="https://react.dev/"><SiJavascript className="text-6xl text-yellow-300"/><p>Javasricpt</p></a>
-            <a href="https://react.dev/"><FaReact className="text-6xl text-purple-900 font-semibold"/> React.js</a>
-            <a href="https://react.dev/"><SiTailwindcss className="text-6xl text-green-400 font-semibold"/><p>Tailwind Css</p></a>
-          </p>  
+            <p className="gap-2 my-10 flex justify-between">
+                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+                  <FaHtml5 className="m10x- text-6xl text-red-600" /> <p>HTML</p>
+                </a>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+                  <FaCss3 className="text-6xl text-blue-600" /><p>CSS</p>
+                </a>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+                  <SiJavascript className="text-6xl text-yellow-300" /><p>JavaScript</p>
+                </a>
+                <a href="https://reactjs.org/docs/getting-started.html">
+                  <FaReact className="text-6xl text-purple-900 font-semibold" /> React.js
+                </a>
+                <a href="https://redux.js.org/introduction/getting-started">
+                  <TbBrandRedux className="text-6xl text-purple-700 font-semibold" /> Redux
+                </a>
+                <a href="https://nodejs.org/en/docs/">
+                  <FaNode className="text-6xl text-green-600 font-semibold" /> Node.js
+                </a>
+                <a href="https://tailwindcss.com/docs">
+                  <SiTailwindcss className="text-6xl text-green-400 font-semibold" /><p>Tailwind CSS</p>
+                </a>
+          </p>
+
         </motion.div>
 
         <div className="mt-16 md:mt-0">
