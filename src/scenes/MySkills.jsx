@@ -39,12 +39,12 @@ const MySkills = () => {
                 <a href="https://reactjs.org/docs/getting-started.html">
                   <FaReact className="text-6xl text-purple-900 font-semibold" /> React.js
                 </a>
-                <a href="https://redux.js.org/introduction/getting-started">
+                {/* <a href="https://redux.js.org/introduction/getting-started">
                   <TbBrandRedux className="text-6xl text-purple-700 font-semibold" /> Redux
-                </a>
-                <a href="https://nodejs.org/en/docs/">
+                </a> */}
+                {/* <a href="https://nodejs.org/en/docs/">
                   <FaNode className="text-6xl text-green-600 font-semibold" /> Node.js
-                </a>
+                </a> */}
                 <a href="https://tailwindcss.com/docs">
                   <SiTailwindcss className="text-6xl text-green-400 font-semibold" /><p>Tailwind CSS</p>
                 </a>
